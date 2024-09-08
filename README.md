@@ -3,9 +3,8 @@
 - pnpm
 - Node.js
 - Vite
-- TypeScript
 - Vitest
-- Playwright
+- TypeScript
 - Biome
 
 ## License

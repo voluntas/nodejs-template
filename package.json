@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "e2e-test": "playwright test --project=chromium",
     "lint": "biome lint src/",
     "fmt": "pnpm biome format --write src/ test/",
     "test": "vitest run",
