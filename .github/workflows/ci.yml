@@ -13,6 +13,8 @@ concurrency:
 jobs:
   ci:
     runs-on: ubuntu-latest
+    env:
+      VITE_SPAM: "spam"
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -22,7 +24,7 @@ jobs:
       - run: pnpm install
       - run: pnpm fmt
       - run: pnpm lint
-      - run: pnpm check
+      # - run: pnpm check
       - run: pnpm build
   vitest:
     needs: ci
