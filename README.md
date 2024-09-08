@@ -15,6 +15,7 @@
 - Vitest
 - TypeScript
 - Biome
+- Playwright
 
 ## ライセンス
 
