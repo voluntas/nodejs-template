@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-template",
+  "version": "2024.1.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "e2e-test": "playwright test --project=chromium",
+    "lint": "biome lint ./src",
+    "fmt": "pnpm biome format --write ./src",
+    "test": "vitest run",
+    "check": "tsc --noEmit"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "typescript": "5.5.4",
+    "vite": "5.4.3",
+    "vitest": "2.0.5"
+  },
+  "packageManager": "pnpm@9.9.0",
+  "engines": {
+    "node": ">=22.8.0"
+  }
+}
