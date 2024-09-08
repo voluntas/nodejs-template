@@ -1,5 +1,8 @@
 # Node.js Template
 
+![Static Badge](https://img.shields.io/badge/Checked_with-Biome-60a5fa?style=flat&logo=biome)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 - pnpm
 - Node.js
 - Vite
