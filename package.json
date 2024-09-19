@@ -13,10 +13,10 @@
     "check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.1",
+    "@biomejs/biome": "1.9.2",
     "@playwright/test": "1.47.1",
     "typescript": "5.6.2",
-    "vite": "5.4.5",
+    "vite": "5.4.6",
     "vitest": "2.1.1"
   },
   "packageManager": "pnpm@9.9.0",
