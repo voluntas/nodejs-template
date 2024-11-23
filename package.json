@@ -14,13 +14,13 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@playwright/test": "1.48.2",
-    "typescript": "5.6.3",
+    "@playwright/test": "1.49.0",
+    "typescript": "5.7.2",
     "vite": "5.4.11",
-    "vitest": "2.1.4"
+    "vitest": "2.1.5"
   },
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@9.14.2",
   "engines": {
-    "node": ">=22.8.0"
+    "node": ">=22.11.0"
   }
 }
