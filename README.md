@@ -14,6 +14,7 @@
 - Vite
 - Vitest
 - TypeScript
+  - tslib
 - Biome
 - Playwright
 
