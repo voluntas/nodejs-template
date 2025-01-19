@@ -17,6 +17,7 @@
   - tslib
 - Biome
 - Playwright
+- React
 
 ## ライセンス
 

@@ -20,6 +20,7 @@
     "strictFunctionTypes": true,
     // プロパティの初期化を厳密にチェックする
     "strictPropertyInitialization": true,
+    "jsx": "react-jsx",
     "newLine": "LF",
     "types": [],
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
